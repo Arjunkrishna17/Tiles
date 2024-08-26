@@ -1,0 +1,121 @@
+.st_section {
+  display: flex;
+  width: 14rem;
+  height: 9rem;
+  flex-direction: column;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #fff;
+  padding: 1.2rem;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.st_title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.st_value_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.single_tile_section > * {
+  margin-top: 5px;
+}
+
+.st_value {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.st_value * {
+  margin-left: 5px;
+}
+
+.st_sub_val {
+  margin-right: 5px;
+}
+
+.st_sub_val_container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+/* ---------------------------------- multi value tiles -- ----------------- */
+
+.mt_tile_section {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #fff;
+  padding: 1.2rem;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+.mt_inner_container {
+  display: flex;
+  width: 100%;
+  padding-top: 5px;
+  justify-content: space-between;
+}
+
+.mt_title {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mt_val_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mt_value {
+  font-weight: 600;
+}
+
+.mt_metric_container {
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.mt_metric_val_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mt_trend {
+  color: green;
+  font-size: large;
+}
+
+.val_primary {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.mt_divider {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mt_metric_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mt_second_val {
+  font-size: small;
+}
